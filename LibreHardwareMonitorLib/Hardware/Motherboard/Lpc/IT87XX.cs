@@ -102,7 +102,8 @@ internal class IT87XX : ISuperIO
             Chip.IT8655E or
             Chip.IT8631E or
             Chip.IT8638E or
-            Chip.IT8696E;
+            Chip.IT8696E or
+            Chip.IT8772E;
 
         _hasAlt6thFanReg = chip is Chip.IT8665E or Chip.IT8625E;
 
